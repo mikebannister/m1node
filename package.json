@@ -1,0 +1,20 @@
+{
+    "name": "m1node",
+    "description": "A thin layer of utils for working with node.js, connect, express, CouchDB and friends",
+    "version": "0.0.5",
+    "author": "Mike Bannister <mike@mike101.net>",
+    "web": "http://github.com/mikebannister/m1node",
+    "engine": [ "node >= 0.2.5"],
+    "directories": { "lib": "./lib/m1node" },
+    "main": "./lib/m1node/index",
+    "dependencies": {
+        "step": "0.0.3",
+        "underscore": "1.1.3",
+        "connect-redis": "0.2.0",
+        "ejs": "0.2.1",
+        "optimist": "0.0.7",
+        "express": "1.0.0",
+        "namespaces": "0.0.6",
+        "gently": "latest"
+    }
+}
